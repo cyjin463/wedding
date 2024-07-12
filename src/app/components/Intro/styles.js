@@ -2,6 +2,7 @@ import styled from 'styled-components';
 import Image from 'next/image';
 
 export const Container = styled.section`
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     padding: 0 5.6%;
@@ -19,7 +20,6 @@ export const TopImageBox = styled.div`
 `
 
 export const IntroImageBox = styled.div`
-    box-sizing: border-box;
     maring: auto;
     width: 100%;
     > Image {
