@@ -7,9 +7,7 @@ export const Container = styled.section`
     flex-direction: column;
     padding: 0 5.6%;
     width: 100%;
-    border-bottom: 1px solid black;
 `
-
 export const TopImageBox = styled.div`
     padding: 9.6% 0 8.53%;
     width: 50%;
@@ -20,13 +18,12 @@ export const TopImageBox = styled.div`
 `
 
 export const IntroImageBox = styled.div`
-    maring: auto;
     width: 100%;
     > Image {
         width 100%;
     }
 `
-export const textBox = styled.p`
+export const TextBox = styled.p`
     margin: 0;
     padding: 5.6% 0 7.2%;
     text-align: right;
@@ -40,4 +37,10 @@ export const textBox = styled.p`
     @media (min-width: 750px) {
         font-size: 32px;
     }
+`
+
+export const Line = styled.span`
+    width: 100%;
+    height: 1px;
+    background-color: black;
 `

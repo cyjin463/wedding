@@ -25,11 +25,11 @@ export default function Intro() {
                     objectFit="contain" // 이미지의 비율을 유지하며 조정
                 />
             </S.IntroImageBox>
-            <S.textBox>
+            <S.TextBox>
                 안소진 / 최영진<br />
                 2024년10월05일 오전12시20분<br />
                 노비아갈라 동촌점 갈라판지아홀
-            </S.textBox>
+            </S.TextBox>
         </S.Container>
     )
-} 
+}
