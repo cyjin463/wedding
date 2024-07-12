@@ -35,7 +35,7 @@ export const TextBox = styled.p`
         font-size: 24px;
     }
     @media (min-width: 750px) {
-        font-size: 32px;
+        font-size: 24px;
     }
 `
 
