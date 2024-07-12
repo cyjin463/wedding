@@ -18,5 +18,6 @@ export default function Home() {
 const Line = styled.p`
     width: 94.4%;
     height: 1px;
+	margin: auto;
     background-color: black;
 `
