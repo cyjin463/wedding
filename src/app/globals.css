@@ -8,3 +8,10 @@ body {
 main {
     max-width: 750px;
 }
+
+button {
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: 0;
+}
