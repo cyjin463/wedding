@@ -12,10 +12,10 @@ export const Couple = styled.h2`
     @media (max-width: 375px) {
         font-size: 20px;
     }
-    @media (min-width: 375px) and (max-width: 750px) {
+    @media (min-width: 376px) and (max-width: 750px) {
         font-size: 30px;
     }
-    @media (min-width: 750px) {
+    @media (min-width: 751px) {
         font-size: 40px;
     }
 `
@@ -24,10 +24,10 @@ export const Message = styled.p`
     @media (max-width: 375px) {
         font-size: 15px;
     }
-    @media (min-width: 375px) and (max-width: 750px) {
+    @media (min-width: 376px) and (max-width: 750px) {
         font-size: 23px;
     }
-    @media (min-width: 750px) {
+    @media (min-width: 751px) {
         font-size: 30px;
     }
 `

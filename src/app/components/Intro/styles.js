@@ -31,10 +31,10 @@ export const TextBox = styled.p`
     @media (max-width: 375px) {
         font-size: 16px;
     }
-    @media (min-width: 375px) and (max-width: 750px) {
+    @media (min-width: 376px) and (max-width: 750px) {
         font-size: 24px;
     }
-    @media (min-width: 750px) {
+    @media (min-width: 751px) {
         font-size: 24px;
     }
 `
