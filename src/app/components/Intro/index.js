@@ -11,18 +11,16 @@ export default function Intro() {
                 <Image
                     src={topImage}
                     alt="Top Image"
-                    className="top-image"
                     layout="responsive"
-                    objectFit="contain" // 이미지의 비율을 유지하며 조정
+                    objectFit="contain"
                 />
             </S.TopImageBox>
             <S.IntroImageBox>
                 <Image
                     src={introImage}
                     alt="Intro Image"
-                    className="intro-image"
                     layout="responsive"
-                    objectFit="contain" // 이미지의 비율을 유지하며 조정
+                    objectFit="contain"
                 />
             </S.IntroImageBox>
             <S.TextBox>

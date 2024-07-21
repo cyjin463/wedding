@@ -1,4 +1,3 @@
-import { Exo } from "next/font/google";
 import styled from "styled-components";
 
 

@@ -7,7 +7,6 @@ import * as S from './styles'
 
 
 export default function Contact() {
-    console.log(callImage)
     const infoList = [
         {
             name: '최영진',
@@ -36,14 +35,14 @@ export default function Contact() {
     ]
 
     const contactHandler = (type, phoneNumber) => {
-        if(type === 'call') {
+        if (type === 'call') {
             window.location.href = `tel:+${phoneNumber}`;
         }
-        if(type === 'message') {
-            
+        if (type === 'message') {
+
             window.location.href = `sms:${phoneNumber}?body=${''}`;
         }
-        
+
     }
     return (
         <S.Container>
